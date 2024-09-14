@@ -1,15 +1,13 @@
 <?
-use Psr\Http\Message\ResponseInterface as Response;
-use Psr\Http\Message\ServerRequestInterface as Request;
+
+require_once $_SERVER['DOCUMENT_ROOT'] . '/../php_interface/bootstrap.php';
+
 use Slim\Factory\AppFactory;
 
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 $app = AppFactory::create();
 
-$app->get('/', function (Request $request, Response $response, $args): ResponseInterface {
-    $response->getBody()->write("Hello world!");
-    return $response;
-});
+require __DIR__ . '/config/routes.php';
 
 $app->run();

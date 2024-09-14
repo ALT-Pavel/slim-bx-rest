@@ -1,13 +1,10 @@
-## если гит в корне сайта
+
 /upload/
 /.Trash*/
 /yml-catalogs/*.yml
 /robots.txt
 /sitemap*.xml
 /local/api/vendor/
-/local/php_interface/include/env_vars.php
+/local/api/composer.lock
 /pathLog.txt
-/_s/
-
-# core
 /bitrix/*
