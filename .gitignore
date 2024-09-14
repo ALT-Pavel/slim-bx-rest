@@ -4,7 +4,7 @@
 /yml-catalogs/*.yml
 /robots.txt
 /sitemap*.xml
-/local/vendor/
+/local/api/vendor/
 /local/php_interface/include/env_vars.php
 /pathLog.txt
 /_s/
